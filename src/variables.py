@@ -106,10 +106,10 @@ def team_players_selected():
 
 
 # seasons to consider for data collection
-ALL_SEASONS = ["2020-21"]
+ALL_SEASONS = ["2020-24"]
 
 # ongoing season
-CURRENT_SEASON = "2020-21"
+CURRENT_SEASON = "2024-25"
 
 # number of random teams to search
 ITERATIONS = 1
@@ -120,7 +120,7 @@ RECEIVER_EMAIL = os.environ.get("GMAIL_RECEIVER")
 PASSWORD = os.environ.get("GMAIL_PASS")
 
 # number of hours before which user is notified about transfers
-NOTIFY_BEFORE = 4
+NOTIFY_BEFORE = 6
 
 # user's team id
-TEAM_ID = 2087820
+TEAM_ID = 7621114
